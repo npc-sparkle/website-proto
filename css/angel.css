@@ -24,5 +24,11 @@ header img {
 }
 
 main {
-	max-width: 800px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img {
+	max-width: 500px;
 }
