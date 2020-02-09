@@ -31,14 +31,15 @@ main {
 }
 
 main img {
-	max-width: 400px;
 }
+
+/* the following stuff styles the big element boxes, but I also want to style the pictures independently from the element boxes */
 
 #about{
 	float: left;
 	width: 50%;
 }
-#img{
+#image{
 	float: right;
 	width: 50%;
 }
@@ -51,4 +52,8 @@ main img {
 #mediaetc {
 	float: right;
 	width: 50%;
+}
+
+img {
+	width: 400px;
 }
